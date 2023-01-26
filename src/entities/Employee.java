@@ -3,7 +3,7 @@ package entities;
 public class Employee {
 	
 	private String name;
-	private double Salary;
+	private double salary;
 	
 	public Employee() {
 		
@@ -11,7 +11,7 @@ public class Employee {
 
 	public Employee(String name, double salary) {
 		this.name = name;
-		Salary = salary;
+		this.salary = salary;
 	}
 
 	public String getName() {
@@ -23,10 +23,10 @@ public class Employee {
 	}
 
 	public double getSalary() {
-		return Salary;
+		return salary;
 	}
 
 	public void setSalary(double salary) {
-		Salary = salary;
+		this.salary = salary;
 	}
 }
